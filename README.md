@@ -25,6 +25,17 @@ Or add it to your `package.json` manually:
 }
 ```
 
+Already have a bot built on the original `@whiskeysockets/baileys` and don't want to change every
+`require`/`import` in your codebase? Alias the dependency name instead, so the original package
+name points to this fork:
+```json
+"dependencies": {
+  "@whiskeysockets/baileys": "github:pou-code/Baileys"
+}
+```
+With this alias, keep using `require('@whiskeysockets/baileys')` in your code as-is — npm will
+resolve it to this fork under the hood.
+
 You can also pin to a specific branch or commit:
 ```bash
 npm install github:pou-code/Baileys#main
