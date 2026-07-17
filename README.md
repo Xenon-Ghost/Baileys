@@ -22,13 +22,13 @@ This project is a fork built on top of [Baileys](https://github.com/WhiskeySocke
 ## Installation
 Install directly from GitHub (not published on npm registry):
 ```bash
-npm install github:pou-code/Baileys
+npm install github:Xenon-Ghost/Baileys
 ```
 
 Or add it to your `package.json` manually:
 ```json
 "dependencies": {
-  "@poucode/baileys": "github:pou-code/Baileys"
+  "@Xenon/baileys": "github:pou-code/Baileys"
 }
 ```
 
